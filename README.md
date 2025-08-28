@@ -159,3 +159,9 @@ Untuk pertanyaan atau dukungan terkait website ini:
 ---
 
 **Dibuat dengan ❤️ untuk PT Pelayaran Nusantara**
+
+## 🚀 Live Website
+Website ini dapat diakses di: https://company-profile-pelayaran.netlify.app/
+
+## 🔄 Auto Deployment
+Website ini menggunakan auto deployment dari GitHub ke Netlify. Setiap perubahan di branch `main` akan otomatis ter-deploy.
