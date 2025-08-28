@@ -1,0 +1,7 @@
+# Netlify redirects file
+
+# Redirect www to non-www
+https://www.company-profile-pelayaran.netlify.app/* https://company-profile-pelayaran.netlify.app/:splat 301!
+
+# Handle missing files - fallback to index.html
+/* /index.html 200
