@@ -1,0 +1,45 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="aboutWaves" x="0" y="0" width="120" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0,15 Q30,5 60,15 T120,15 V30 H0 Z" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#aboutGrad)"/>
+  <rect width="100%" height="100%" fill="url(#aboutWaves)"/>
+
+  <!-- Office Building Silhouette -->
+  <g transform="translate(450, 250)" opacity="0.3">
+    <rect x="0" y="0" width="80" height="120" fill="rgba(255,255,255,0.4)" rx="4"/>
+    <rect x="10" y="10" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+    <rect x="30" y="10" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+    <rect x="50" y="10" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+    <rect x="10" y="30" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+    <rect x="30" y="30" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+    <rect x="50" y="30" width="15" height="15" fill="rgba(255,255,255,0.6)"/>
+  </g>
+
+  <!-- Ship Silhouette -->
+  <g transform="translate(80, 300)" opacity="0.4">
+    <rect x="0" y="0" width="120" height="25" fill="rgba(255,255,255,0.5)" rx="12"/>
+    <rect x="30" y="-15" width="20" height="15" fill="rgba(255,255,255,0.5)" rx="3"/>
+    <rect x="70" y="-20" width="15" height="20" fill="rgba(255,255,255,0.5)" rx="2"/>
+  </g>
+
+  <!-- Content -->
+  <text x="50%" y="35%" font-family="Arial, sans-serif" font-size="36" font-weight="bold"
+        fill="white" text-anchor="middle">TENTANG KAMI</text>
+  <text x="50%" y="45%" font-family="Arial, sans-serif" font-size="18"
+        fill="white" text-anchor="middle" opacity="0.9">20+ Tahun Pengalaman Maritim</text>
+  <text x="50%" y="55%" font-family="Arial, sans-serif" font-size="16"
+        fill="white" text-anchor="middle" opacity="0.8">Mitra Terpercaya Industri Pelayaran</text>
+
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <circle cx="500" cy="80" r="25" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+</svg>
