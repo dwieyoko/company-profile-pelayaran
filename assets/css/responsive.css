@@ -29,6 +29,18 @@
     }
 }
 
+/* Large Tablet and Small Desktop - Optimize navigation */
+@media (max-width: 1200px) and (min-width: 769px) {
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 0.8rem 0.6rem;
+    }
+
+    .nav-list {
+        gap: 0.1rem;
+    }
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     /* Navigation */
